@@ -1,7 +1,9 @@
 {
-  "name": "nero-ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@dremileta/nero-ui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dremileta"
+  },
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
