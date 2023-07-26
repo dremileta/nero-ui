@@ -66,6 +66,17 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "points-bounce": {
+          "0%": {
+            transform: "translate(0px, 0px)",
+          },
+          "50%": {
+            transform: "translate(0, calc(var(--pointsSize) * 1.4))",
+          },
+          "100%": {
+            transform: "translate(0px, 0px)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
